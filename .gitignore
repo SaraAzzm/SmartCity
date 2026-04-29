@@ -1,0 +1,19 @@
+# API keys — never commit these
+config/api_keys.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Trained model — large file, regenerated locally
+data/models/aqi_model.pkl
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

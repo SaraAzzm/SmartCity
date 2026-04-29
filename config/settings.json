@@ -1,0 +1,14 @@
+{
+    "thresholds": {
+        "pm25_max": 150,
+        "congestion_max": 100,
+        "zscore_anomaly_threshold": 2.0
+    },
+    "risk_index_weights": {
+        "pm25": 0.40,
+        "congestion": 0.35,
+        "weather_stress": 0.25
+    },
+    "rolling_window_hours": 72,
+    "scheduler_interval_minutes": 60
+}
